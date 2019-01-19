@@ -21,3 +21,7 @@ create a file config.js - copy mongodb url and replace username and password
 Include config file in server.js
 mongoose.connect() - fn to connect to mongo db database
 
+##CORS (Cross Origin Resource Sharing)
+Middleware for communication between front end and backend
+npm install cors --save (amazono project)
+Add CORS in server.js
