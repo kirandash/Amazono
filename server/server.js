@@ -11,3 +11,12 @@ app.use(bodyParser.json()); // reading data in specific format (json)
 app.use(bodyParser.urlencoded({ extended:false })); // urlencoding is false coz we want to read image as raw
 app.use(morgan('dev')); // will log all requests in terminal
 
+app.get('/', (req, res, next) => {
+    res.json({
+        user: 'Kiran Dash'
+    });
+}); // using http get at '/' or the home page i.e. 'localhost:3030/' to get a json response data
+
+app.listen(3030, err => {
+    console.log('Magic happened at port 3030');
+});
