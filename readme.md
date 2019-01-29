@@ -32,3 +32,12 @@ npm install -g @angular/cli // angular cli is a cli for managing our angular pro
 ng new AngularAmazono --routing --style=scss (angular proj with routing preconfigured and style set as scss)
 cd AngularAmazono
 npm install @ng-bootstrap/ng-bootstrap
+
+Add bootstrap from https://getbootstrap.com/docs/4.0/getting-started/introduction/ and fontawesome from https://www.bootstrapcdn.com/fontawesome/
+
+## Adding Angular dependencies
+app.module.ts - declarations: has list of all components
+imports - has list of all dependencies
+providers - list of services
+bootstrap - list of components that will run when app starts
+
