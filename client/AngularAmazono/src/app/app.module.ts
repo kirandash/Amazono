@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms'; // Used for controlling forms in angular
 import { HttpClientModule } from '@angular/common/http'; // Needed to do http calls
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; // Used for angular bootstrap
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomeComponent } from './home/home.component'; // Used for angular bootstrap
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

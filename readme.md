@@ -41,3 +41,6 @@ imports - has list of all dependencies
 providers - list of services
 bootstrap - list of components that will run when app starts
 
+## Routing
+ng generate component Home
+ng serve
