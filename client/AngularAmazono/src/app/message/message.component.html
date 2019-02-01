@@ -1,0 +1,5 @@
+<p *ngIf="data.message">
+  <ngb-alert [type]="data.messageType" [dismissable]="false">
+    {{ data.message }}
+  </ngb-alert> <!-- Message dialog will appear if there is any message - cant be dismissed -->
+</p>

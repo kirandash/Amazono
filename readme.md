@@ -47,3 +47,5 @@ ng serve
 
 ng generate service RestApi
 
+ng generate service Data
+ng generate component Message
