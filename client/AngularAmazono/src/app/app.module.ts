@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http'; // Needed to do http ca
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component'; // Used for angular bootstrap
 
+import { RestApiService } from './rest-api.service';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,7 @@ import { HomeComponent } from './home/home.component'; // Used for angular boots
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ RestApiService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
